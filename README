@@ -1,0 +1,38 @@
+
+Task: This is a straight forward automation task, with backend (restful, json based api) and frontend html checking.
+
+Part1: Api automation test
+
+ Do API automation test by using:
+ POJO Classes
+* Java as a programming language
+* RestAssured Library
+* JsonPath
+* Hamcrest Matchers
+* ObjectMapper
+* Create Default Constructor and With Parameter
+Used two different type of POJO classes one is with Lombok, second one is by using jsonschema2pojo
+by applying getter and Setters.
+* Used @JsonIgnoreProperties(ignoreUnknown = true) to use only necessary data's
+* Do all assertions With Junit
+
+Part2: UI automation test
+* Java as a programming language
+* Maven as a project management tool
+* Used Selenium Webserver
+* Cucumber with Gherkin
+* For assertions Junit5
+* BDD approach used
+* pom.xml used for dependencies and plugins
+* Used ENUMS and Configuration.properties to store user data and end points
+* Used feature file for Gherkin and defined all steps in StepDefinitions Class
+* used Utilities Class for Reusable Methods
+* Runner as project brain, run all  test with Giving Annotation
+* In Target file we store:
+        - failed tests
+        - json report
+        - cucumber.xml report
+        -html repors
+
+
+
